@@ -1,0 +1,29 @@
+.education{
+    color: #60e1ff;
+    font-size: 2rem;
+    background: #000;
+}
+.education-title{
+    padding-bottom: 1em;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: .2em;
+    text-underline-offset: .3em;
+    text-decoration-style: dotted;
+}
+.education-title::first-letter{
+    font-size: 3em;
+    text-align: center;
+}
+.school{
+    font-weight: bolder;
+}
+.course{
+    font-size: .8em;
+}
+
+.activity{
+    padding-left: 30px;
+    list-style: square;
+}
