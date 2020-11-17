@@ -36,10 +36,10 @@ const MyNav = () => {
                 <nav className="nav">
                 <Link className="brand" to='/'>Jokotoye Ademola</Link>
                 <a className="nav-link" target='_blank' rel='noopener noreferrer'  href="https://jokotoye-blog.s3.us-east-2.amazonaws.com/Jokotoye-Ademola-Akin(CV).pdf">Resume<FaFileDownload className='ml-2' /></a>
-                <div className='day-mode' onClick={handleTimeMode}>
+                {/* <div className='day-mode' onClick={handleTimeMode}>
                     {isSunny? 
                     <WiDaySunny className='sunny' />: <WiMoonWaxingCrescent2 className='moon' />}
-                </div>
+                </div> */}
                 </nav>
             </div>
         </header>

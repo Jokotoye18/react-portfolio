@@ -259,7 +259,26 @@ section{
 .project{
     margin: 2rem 0;
     box-shadow: 1px 1px 3px rgba(255, 255, 255, .3);
-    
+}
+.filter{
+    margin: 2em 0;
+}
+.filter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter-form label, .filter-form input{
+    width: 100%;
+    font-size: 1.5em;
+}
+.filter-form select{
+    border-radius: .3em;
+    padding: 1em;
+}
+.control{
+    display: flex;
+    flex-direction: column;
 }
 .project-grid{
     display: grid;

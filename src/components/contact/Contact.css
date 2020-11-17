@@ -30,7 +30,7 @@ label{
     font-size: 1em;
 }
 input, textarea{
-    color: rgba(0, 0, 0, .6);
+    color: rgba(220, 220, 220, .6);
     border: none;
     background-color: transparent;
     /* outline: red solid 1px; */
@@ -42,7 +42,7 @@ input:focus, textarea:focus{
     outline: none;
     border-bottom: 2px solid rgb(17, 238, 172);
     font-size: 1.5em;
-    color: rgba(0, 0, 0, 1);
+    color: rgba(220, 220, 220, 1);
 }
 .send-message{
     padding: 1em 3em;
